@@ -367,10 +367,10 @@
    <!-- END OF FAQS -->
 
 
-   <section class="container testimonials__container">
+   <section class="container testimonials__container mySwiper">
     <h2>Students' Testimonials</h2>
-    <div>
-      <article class="testimonial">
+    <div class="swiper-wrapper testimony">
+      <article class="testimonial swiper-slide">
         <div class="avator">
            <img src="./images/student1.png">
         </div>
@@ -386,7 +386,7 @@
         </div>
       </article>
 
-      <article class="testimonial">
+      <article class="testimonial swiper-slide">
         <div class="avator">
            <img src="./images/student2.jpg">
         </div>
@@ -402,7 +402,7 @@
         </div>
       </article>
 
-      <article class="testimonial">
+      <article class="testimonial swiper-slide">
         <div class="avator">
            <img src="./images/student3.png">
         </div>
@@ -418,7 +418,7 @@
         </div>
       </article>
 
-      <article class="testimonial">
+      <article class="testimonial swiper-slide">
         <div class="avator">
            <img src="./images/student4.jpg">
         </div>
@@ -434,7 +434,7 @@
         </div>
       </article>
 
-      <article class="testimonial">
+      <article class="testimonial swiper-slide">
         <div class="avator">
            <img src="./images/student5.jpg">
         </div>
@@ -450,7 +450,7 @@
         </div>
       </article>
 
-      <article class="testimonial">
+      <article class="testimonial swiper-slide">
         <div class="avator">
            <img src="./images/student1.png">
         </div>
@@ -470,5 +470,15 @@
 
    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
    <script src="./javascript//script.js"></script>
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
 </body>
 </html>

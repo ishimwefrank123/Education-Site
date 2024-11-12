@@ -325,3 +325,10 @@ gap: 1rem;
   top: -1.5rem;
   transform: rotate(45deg);
 } 
+
+.testimonials__container h2{
+  margin-top: 0rem;
+}
+.testimony{
+  margin-top: 20rem;
+}
