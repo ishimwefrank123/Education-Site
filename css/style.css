@@ -160,7 +160,8 @@ header{
 /* CATEGORIES */
 .categories{
   background: var(--color-bg1);
-  height: 29rem;
+  height: 40rem;
+  margin-top: 10rem;
 }
 
 .categories h1{
@@ -221,10 +222,10 @@ header{
 
 /* ############# NAVBAR######### */
 .course{
-  margin-top: 20rem;
+  margin-top: 18rem;
 }
 .container h2{
-  margin-top: 10rem;
+  /* margin-top: -3rem; */
   margin-bottom: -17rem;
 }
 .course__container{
@@ -283,6 +284,7 @@ gap: 1rem;
 .faq.open p{
   display: block;
 }
+
 /* TESTIMONIALS */
 .testimonials__container{
   overflow-x: hidden;
@@ -331,4 +333,40 @@ gap: 1rem;
 }
 .testimony{
   margin-top: 20rem;
+}
+
+/* FOOTER */
+footer{
+  background: var(--color-bg1);
+  padding-top: 5rem;
+  font-size: 0.9rem;
+}
+.footer__container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 5rem;
+}
+.footer__container > div h4{
+  margin-bottom: 1.2rem;
+}
+.footer__1 p{
+  margin: 0 0 2rem;
+}
+footer ul li {
+  margin-bottom: 0.7rem;
+}
+footer ul li a:hover{
+  text-decoration: underline;
+}
+.footer__socials{
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+.footer__copyright{
+  text-align: center;
+  margin-top: 4rem;
+  padding: 1.2rem 0;
+  border-top: 1px solid var(--color-bg2);
 }
